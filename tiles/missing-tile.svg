@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <rect width="256" height="256" fill="#f8fafc"/>
+  <path d="M0 0h256v256H0z" fill="none" stroke="#cbd5e1" stroke-width="8"/>
+  <path d="M32 128h192M128 32v192" stroke="#e2e8f0" stroke-width="3"/>
+  <text x="128" y="118" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#64748b">missing</text>
+  <text x="128" y="144" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#64748b">tile</text>
+</svg>

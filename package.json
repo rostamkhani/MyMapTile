@@ -1,0 +1,12 @@
+{
+  "name": "offline-leaflet-tehran-demo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "download:leaflet": "node scripts/download-leaflet.mjs",
+    "download:tiles": "node scripts/download-tehran-tiles.mjs",
+    "download:all": "npm run download:leaflet && npm run download:tiles",
+    "serve": "python3 -m http.server 8080"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "generatedAt": "2026-05-22T13:45:25.538Z",
+  "source": "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+  "bounds": {
+    "west": 51.3825,
+    "south": 35.6945,
+    "east": 51.4175,
+    "north": 35.7115
+  },
+  "zooms": [
+    14,
+    15,
+    16
+  ],
+  "tileCount": 61
+}

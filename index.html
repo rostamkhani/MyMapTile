@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>نمونه نقشه آفلاین تهران با Leaflet</title>
+    <link rel="stylesheet" href="./vendor/leaflet/leaflet.css" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <section class="intro">
+        <h1>نمونه نقشه آفلاین تهران</h1>
+        <p>
+          این نمونه با Leaflet ساخته شده و کاشی‌ها را از پوشه محلی
+          <code>tiles/tehran/{z}/{x}/{y}.png</code>
+          می‌خواند. محدوده نقشه کوچک است و فقط سه سطح زوم دارد.
+        </p>
+      </section>
+
+      <section class="map-card">
+        <div id="map" aria-label="نقشه آفلاین بخش کوچکی از تهران"></div>
+      </section>
+
+      <section class="notes">
+        <h2>مسیر نمونه</h2>
+        <p>
+          مسیر آبی فقط یک polyline ساده است و به سرویس مسیریابی آنلاین وصل نیست.
+          برای پروژه واقعی می‌توانید نقاط مسیر را از فایل GPX/GeoJSON یا خروجی
+          سرویس مسیریابی خودتان جایگزین کنید.
+        </p>
+      </section>
+    </main>
+
+    <script src="./vendor/leaflet/leaflet.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
