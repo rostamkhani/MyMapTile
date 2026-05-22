@@ -99,7 +99,6 @@ async function downloadTile(tile, index, total) {
 
 async function writeManifest(tiles) {
   const manifest = {
-    generatedAt: new Date().toISOString(),
     source: tileUrlTemplate,
     bounds: config.bounds,
     zooms: config.zooms,
